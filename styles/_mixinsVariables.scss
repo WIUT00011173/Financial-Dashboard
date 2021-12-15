@@ -1,0 +1,37 @@
+@mixin flexRow($gap) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flexCol {
+    display: flex;
+    flex-direction: column;
+}
+@mixin fontSm {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #7987A5;
+}
+
+@mixin fontMd {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+
+@mixin fontB {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 33px;
+    color: #000000;
+
+}
