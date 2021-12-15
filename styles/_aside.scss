@@ -1,0 +1,52 @@
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    width: 20%;
+    height: 100%;
+    background-color: #F9F9F9;
+
+    > img{
+        display: flex;
+        align-self: center;
+        margin: 200px;
+    }
+
+    > div:last-child{
+        margin-top: 100px;
+    }
+}
+
+.financial-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .rows{
+        display: flex;
+        justify-content: space-between;
+
+        > div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            > p {
+                @include fontSm;
+            }
+            > img{
+                padding: 13px;
+                background-color: #ECEFF7;
+                border-radius: 10px;
+            }
+
+            
+        }
+    }
+}
+
+.account{
+    margin-top: 50px;
+}
